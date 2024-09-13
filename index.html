@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro en Tiempo Real</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Foro en Tiempo Real</h1>
+    <div id="commentForm">
+        <input type="text" id="username" placeholder="Tu nombre" required>
+        <textarea id="commentText" rows="4" placeholder="Escribe tu comentario" required></textarea>
+        <button onclick="postComment()">Publicar Comentario</button>
+    </div>
+    <div id="comments"></div>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
